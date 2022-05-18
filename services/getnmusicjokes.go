@@ -6,8 +6,6 @@ import (
 	"tribal/structures"
 )
 
-// jmonterroso@tribalworldwide.gt
-// jgiron@tribalworldwide.gt
 func (s service) GetNMusicJokes(n int) ([]*structures.Joke, error) {
 	const url = "https://api.chucknorris.io/jokes/random"
 
